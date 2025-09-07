@@ -47,3 +47,30 @@ out/
 /*.out
 out_expected.txt
 /*-timing.json
+
+# Data files
+data/measurements*.txt
+data/*.txt
+
+# Build artifacts
+create_measurements
+create_measurements.o
+*.class
+
+# Dependencies
+lib/
+zig-linux-x86_64-*/
+*.tar.xz
+*.tar.xz.*
+
+# Results
+results*.md
+.bench_results.txt
+.bench_temp_*.txt
+
+# Error logs
+hs_err_pid*.log
+
+# Weird accidental files
+?threads*
+?*&*
